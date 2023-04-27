@@ -1,0 +1,15 @@
+{
+  "name": "enjoy-plus",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "lotjol <botue@sina.com>",
+  "repository": "lotjol/enjoy-plus",
+  "license": "",
+  "devDependencies": {
+    "eslint": "^8.23.0"
+  },
+  "dependencies": {
+    "@vant/weapp": "^1.10.4"
+  }
+}
