@@ -1,17 +1,17 @@
 Page({
   data: {
-    notifyDetail: []
+    notifyList: []
   },
 
   onLoad() {
-    this.getNotifyDetail()
+    this.getNotifyList()
 
   },
-  async getNotifyDetail() {
-    const { code, data: notifyDetail } = await wx.http({
+  async getNotifyList() {
+    const { code, data: notifyList } = await wx.http({
       url: '/announcement'
     })
     if (code !== 10000) wx.utils.total()
-    this.setData({ notifyDetail })
+    this.setData({ notifyList })
   }
 })

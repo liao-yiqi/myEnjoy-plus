@@ -33,7 +33,7 @@
 			 hover-class="none"
 			 url="{{'/pages/notify/index?id='+item.id}}"
 			 class="notice"
-			 wx:for="{{notifyDetail}}"
+			 wx:for="{{notifyList}}"
 			 wx:key="id"
 			>
 				<view class="notice-title">{{item.title}}</view>
